@@ -19,7 +19,7 @@ kubectl get pod nginx-pod -o yaml - to check pod configuration in yaml format
 kubectl describe pod nginx-pod
 kubectl delete pod nginx-pod
 
-cat <<EOF > /usr/share/nginx/html/test.html
+/* cat <<EOF > /usr/share/nginx/html/test.html
 <!DOCTYPE html>
 <html>
 <head>
@@ -30,7 +30,7 @@ cat <<EOF > /usr/share/nginx/html/test.html
 <h2>Congratulations you passed :)</h2>
 </body>
 </html>
-EOF
+EOF */
 
 When a service is exposed on NodePort - it means that it is accecible from external network.
 
