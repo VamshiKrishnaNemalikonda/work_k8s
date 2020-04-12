@@ -32,6 +32,8 @@ kubectl delete pod nginx-pod
 </html>
 EOF */
 
+<h2> Exposing web application both externally (internet) and internally in k8s cluster </h2>
+
 When a service is exposed on NodePort - it means that it is accecible from external network.
 
 kubectl expose pod nginx-pod --type=NodePort --port=80
