@@ -6,6 +6,6 @@ metadata:
     app: nginx
 spec:
   ports:
-  - port: 80
+  - port: 80 
   selector:
     app: nginx
