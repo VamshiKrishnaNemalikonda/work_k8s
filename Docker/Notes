@@ -1,0 +1,3 @@
+//commands
+docker run python-app
+docker run helper -link app1
